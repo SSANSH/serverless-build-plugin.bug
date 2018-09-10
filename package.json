@@ -1,0 +1,21 @@
+{
+  "name": "bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-build-plugin": "^2.4.4",
+    "babel-preset-env": "^1.7.0",
+    "serverless": "^1.30.3",
+    "serverless-build-plugin": "^2.4.0-alpha.0",
+    "serverless-offline": "^3.25.11"
+  },
+  "dependencies": {
+    "test": "./test"
+  }
+}
