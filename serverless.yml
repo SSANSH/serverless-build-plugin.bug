@@ -24,7 +24,7 @@ functions:
 
 plugins:
   - serverless-offline
-  - "@sebastien.salat/serverless-build-plugin"
+  - "serverless-build-plugin"
 
 custom:
   serverless-offline:
