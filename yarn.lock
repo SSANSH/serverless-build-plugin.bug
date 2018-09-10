@@ -2,27 +2,6 @@
 # yarn lockfile v1
 
 
-"@sebastien.salat/serverless-build-plugin@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sebastien.salat/serverless-build-plugin/-/serverless-build-plugin-2.4.4.tgz#a9d698adec155566682f1b510d96b871a6bce899"
-  dependencies:
-    archiver "^2.0.0"
-    bluebird "^3.5.0"
-    chalk "^2.1.0"
-    fs-extra "^4.0.1"
-    get-folder-size "^1.0.0"
-    is-stream "~1.1.0"
-    js-yaml "^3.9.1"
-    lutils "^2.4.0"
-    minimatch "^3.0.4"
-    mkdirp "~0.5.1"
-    resolve-pkg "^1.0.0"
-    semver "^5.4.1"
-    source-map-support "^0.4.15"
-    ts-node "^3.3.0"
-    typescript "^2.3.0"
-    walker "^1.0.7"
-
 "@serverless/platform-sdk@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@serverless/platform-sdk/-/platform-sdk-0.2.1.tgz#1c6a804f489dcb85e2af641c9ed7c85cc202dc8b"
@@ -2851,7 +2830,7 @@ term-size@^1.2.0:
   dependencies:
     execa "^0.7.0"
 
-"test@file:./test":
+test@./test:
   version "1.0.0"
 
 through@^2.3.6:
